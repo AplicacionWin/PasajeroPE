@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_launcher" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalles de Recibo"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close"
+            android:id="@+id/back"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bt_light_gray"
+        android:layout_marginLeft="35dp"
+        android:text=""
+        android:id="@+id/paymentId"
+        android:textSize="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio Base"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/baseFare"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarifa de reserva"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/bookingFare"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio de tiempo"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/timePrice"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(1 minuto * 0.06)"
+        android:id="@+id/timeBreakdown"
+        android:textSize="12dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio de distancia"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/distance"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(1 Km * $0.40)"
+        android:id="@+id/distanceBreakdown"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio de Arranque"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/surgePrice"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="@color/bt_light_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio de deuda"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/debtPrice"
+            android:layout_weight="1"
+            android:textColor="@color/bt_light_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descuento"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- 00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/discount"
+            android:layout_weight="1"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargo por cancelación"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/cancellationFee"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio de Impuestos"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/taxPrice"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.5"
+        android:background="@color/bt_light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textAlignment="textEnd"
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:id="@+id/total"
+            android:textColor="@color/green"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="incluye impuestos"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginTop="-10dp"
+            android:textColor="@color/black"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a través de tarjeta"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:id="@+id/paymentMode"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabajos/win/ecuador/smartcar_fcm_new_android_user/app/src/main/res/drawable/s_eta_circle.xml" value="0.133" />
+        <entry key="..\:/Trabajos/win/ecuador/smartcar_fcm_new_android_user/app/src/main/res/layout/otp_verifier.xml" value="0.21770833333333334" />
+        <entry key="..\:/Trabajos/win/ecuador/smartcar_fcm_new_android_user/app/src/main/res/layout/signup_layout.xml" value="0.21770833333333334" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/drawable/drawable_edittext_background.xml" value="0.2985" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/drawable/drawable_edittext_background2.xml" value="0.2985" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_addpayment.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_chat_screen.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_fav_provider.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_no_internet.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_panic_contact_activity.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_payments.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_redeem.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_saved_places.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_social_login.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_transaction_list.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_wallet_acivity.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/adapter_added_card_item_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/add_fav_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/add_money_bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/adpter_user_settings.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/ads_list_row.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/airport_booking.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/animation_loading.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/api_loading_lottie.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/autocomplete_list_text.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/bolt_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/bounce_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/cancel_request_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/cardpaymentview.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/chat_activity.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/choose_picture_dialog.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/creditcard_view.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/dialog_add_card.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/dialog_create_favorite.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/dialog_distance_search.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/dialog_invoice_breakdown.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/display_fav_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/drawable_edittext_background.xml" value="0.21145833333333333" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/driver_info_window.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/eta_info_window.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/exit_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/fare_breakdown.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/fare_popup.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/fav_display_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/fav_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/favorite_provider.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/forgot_password.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/fragment_feedback_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/gird_wallet_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/help_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/helpview.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/history_detail_view.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/history_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/home_map_fragment.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/hourly_booking.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/incompete_payment_dialog.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/info_window_dest.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/info_window_pickup.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_credit_card.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_favorites.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_my_chat.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_not_my_chat.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_payment_mode.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_provider_homes.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_search_location.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/item_wallet.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/later_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/later_request_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/layout_animation.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/layout_forgot_password.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/layout_provider_info.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/list_item_chat_message.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/logout_dialog.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/myearnings_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/navigation_drawer_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/nikola_wallet.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/otp_verifier.xml" value="0.33" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/pqrsview.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/promo_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/reason_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/recover_password.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/refferalcode_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/register_fragment.xml" value="0.33" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/request_fragment.xml" value="0.33" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/request_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/request_loading.xml" value="0.2391304347826087" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/schedule_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/search_location_dialog.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/search_map_dialog.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/select_payment.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/select_payment_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/signup2.xml" value="0.33" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/signup3.xml" value="0.28940217391304346" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/signup_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/source_destination_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/source_infowindow.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/spinner_value_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/strip_layout.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/supportview.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/travel_fragment.xml" value="0.25" />
+        <entry key="..\:/apk prueba ecuador/pasajero ec/smartcar_fcm_new_android_user/app/src/main/res/layout/vehicle_type_item.xml" value="0.25" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/activity_welcome.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/animation_loading.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/api_loading_lottie.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/login.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/register_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/request_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/request_loading.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/search_location_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/app win ecuador/version final peru/smartcar_fcm_new_android_user/app/src/main/res/layout/signup2.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

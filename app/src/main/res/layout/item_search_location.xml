@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/icon"/>
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="10dp"
+        android:text="Koramangala"
+        android:drawablePadding="10dp"
+        android:id="@+id/locationName"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

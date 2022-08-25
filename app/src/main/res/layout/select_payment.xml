@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">x
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/background_with_shadow"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_pay_viewcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:padding="5dp"
+            android:tint="@android:color/black"
+            app:srcCompat="@drawable/close" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:id="@+id/tv_payment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+
+    </RelativeLayout>
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/deep_grey"
+        android:gravity="center"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:text="@string/txt_select_payment_note" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lv_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_1"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_cards"
+        android:id="@+id/layout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/addAmountText"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:id="@+id/navigateToAddMoney"
+            android:text="@string/add_money"/>
+
+    </LinearLayout>
+
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/deep_grey"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/txt_select_payment_note2" />
+
+</RelativeLayout>

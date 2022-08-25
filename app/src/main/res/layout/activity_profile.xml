@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/actionbar_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar_profile"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@drawable/background_with_shadow">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/profile_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/back" />
+
+                    <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                        android:id="@+id/btn_edit_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="end"
+                        android:paddingRight="10dp"
+                        android:text="@string/btn_edit"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_img_lay"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/actionbar_lay"
+            android:background="@color/main_color">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/defult_user" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_img_lay"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldEditView
+                android:id="@+id/et_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/first_name"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldEditView
+                android:id="@+id/et_lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/lastname"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/square_editbox"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etFirstName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/square_editbox"
+            android:hint="@string/last_Name"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/et_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etLastName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/square_editbox"
+            android:hint="@string/your_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/profile_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_profile_email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:buttonTint="@color/circle_color"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_btn_male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:buttonTint="@color/wallet_blue"
+                android:checked="true"
+                android:text="@string/txt_male"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:buttonTint="@color/wallet_blue"
+                android:text="@string/txt_female"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_others"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:buttonTint="@color/wallet_blue"
+                android:text="@string/others"
+                android:textSize="14sp" />
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_radioGroup"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/update_mobile_number"
+                android:visibility="gone" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/et_profile_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/square_editbox"
+                android:hint="@string/phn_no"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mobile_number"
+                android:textColor="@color/wallet_blue"
+                android:visibility="invisible" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/mobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/updateMobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="@string/click_here_to_update_mobile_number"
+                android:textColor="@color/wallet_blue"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

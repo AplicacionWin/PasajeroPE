@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartcar_fcm_new_android_user.iml" filepath="$PROJECT_DIR$/.idea/modules/smartcar_fcm_new_android_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/smartcar_fcm_new_android_user.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.iml" filepath="$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/reclv_animation/smartcar_fcm_new_android_user.reclv_animation.unitTest.iml" />
+    </modules>
+  </component>
+</project>

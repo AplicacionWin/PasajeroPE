@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_screen"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sp_country_reg"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:popupBackground="#000000"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="295dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:src="@drawable/logo_get_started"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:id="@+id/welcome_btn"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/drawable_edittext_background_blue"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowDy="0"
+        android:text="@string/welcom_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|clip_vertical"
+        android:onClick="needHelp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/help"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

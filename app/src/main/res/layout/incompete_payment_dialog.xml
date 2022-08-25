@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:text="You have a pending payment to make"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dashed_lines"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount Due"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$400"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:id="@+id/amount"
+            android:textColor="@color/green"
+            android:layout_gravity="center"/>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change payment mode: Card"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:id="@+id/paymentMode"
+            android:background="@color/deep_grey"
+            android:textColor="@color/white"/>
+
+    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="PAY NOW"
+        android:id="@+id/payDue"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

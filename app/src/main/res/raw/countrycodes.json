@@ -1,0 +1,41 @@
+[
+
+	{
+		"name":"Plurinational State of Bolivia",
+		"alpha-2":"BO",
+		"country-code":"068",
+		"phone-code":"+591"
+	},
+
+	{
+		"name":"Colombia",
+		"alpha-2":"CO",
+		"country-code":"170",
+		"phone-code":"+57"
+	},
+
+	{
+		"name":"Ecuador",
+		"alpha-2":"EC",
+		"country-code":"218",
+		"phone-code":"+593"
+	},
+
+
+{"name":"Mexico","alpha-2":"MX","country-code":"484",
+		"phone-code":"+52"},
+
+
+{"name":"Peru","alpha-2":"PE","country-code":"604",
+		"phone-code":"+51"},
+
+]
+	
+	
+<string-array name="countries">
+<country code='bo' phoneCode='591' name='Bolivia, Plurinational State Of' />
+<country code='co' phoneCode='57' name='Colombia' />
+<country code='ec' phoneCode='593' name='Ecuador' />
+<country code='mx' phoneCode='52' name='Mexico' />
+<country code='pe' phoneCode='51' name='Peru' />
+</string-array>

@@ -1,0 +1,590 @@
+<resources>
+    <string name="app_name">Win Rideshare</string>
+    <string name="welcome">Descarga, Comparte y Gana.</string>
+    <string name="welcom_btn">Empecemos</string>
+    <string name="app_title">Win Rideshare</string>
+    <string name="login_email">Dirección de correo</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="login_Password">Contraseña</string>
+    <string name="codverificacion">Ingresar el código enviado</string>
+    <string name="login_Password1">Prefijo Pais</string>
+    <string name="login_btn">Iniciar sesión</string>
+    <string name="help">¿Necesitas Ayuda?</string>
+    <string name="forgot_pass_btn">¿Olvidó la contrast?</string>
+    <string name="new_user_btn">¿Usuario nuevo?</string>
+    <string name="req_pass_btn">Solicitud de clave</string>
+    <string name="actualiza">Verificar Correo</string>
+    <string name="create_an_account_in_nikola1">Registrate o Reactivate</string>
+    <string name="txt_email_error1">Ingrese un prefijo de pais valido</string>
+    <string name="txt_email_error2">El correo debe estar lleno</string>
+    <string name="txt_email_error3">Verifique un correo valido</string>
+    <string name="txt_email_error4">Ingrese el numero de Celular valido</string>
+    <string name="txt_email_error5">Debe contener 10 digitos</string>
+    <string name="txt_email_error6">Debe ingresar una cedula valida</string>
+    <string name="txt_email_error7">Debe ingresar un referido valido</string>
+    <string name="txt_email_error8">Debe ingresar un usuario valido</string>
+    <string name="txt_email_error9">Debe ingresar los nombres validos</string>
+    <string name="txt_email_error10">Registrar su Apellido</string>
+    <string name="txt_email_error11">Registro de Contraseña</string>
+    <string name="register_btn">Registro</string>
+    <string name="forgot_txt_note">Por favor ingrese el correo para recibir la clave</string>
+    <string name="first_name">Nombres</string>
+    <string name="username" >Crea tu Usuario</string>
+    <string name="last_Name">Apellidos</string>
+    <string name="your_password">Tu contraseña</string>
+    <string name="your_email">Tu correo</string>
+    <string name="phn_no">Ingrese su Celular:</string>
+    <string name="prefijo">Prefijo del Pais:</string>
+    <string name="txt_select_country">Selecciona País</string>
+    <string name="txt_select_currency">Selecciona moneda</string>
+    <string name="login_cancelled">inicio de sesión cancelado</string>
+    <string name="login_failed">inicio de sesión fallido</string>
+    <string name="btn_edit">EDITAR</string>
+    <string name="btn_save">GUARDAR</string>
+    <string name="dialog_exit_caps">SALIR</string>
+    <string name="dialog_exit_text">Estas seguro ?</string>
+    <string name="txt_current_loc">Añadir parada</string>
+    <string name="txt_pickup_loc">Configurar ubicación de recogida</string>
+    <string name="txt_set_drop_loc">Estableces ubicación de llegada</string>
+    <string name="txt_drop_loc">Ubicación de llegada</string>
+    <string name="txt_types_title">Carros disponibles</string>
+    <string name="txt_types_payment">Efectivo</string>
+    <string name="txt_driver">Conductor</string>
+    <string name="total_fare">TARIFA ESTIMADA</string>
+    <string name="trip_summary">RESÚMEN DEL VIAJE</string>
+    <string name="rate_ride">CALIFICA TU VIAJE</string>
+    <string name="support">Soporte</string>
+    <string name="my_calculator">Mi Calculadora</string>
+    <string name="my_social_network">Mis Referidos</string>
+    <string name="panic_contact">Contacto de pánico</string>
+
+
+
+    <string name="txt_male">Masculino</string>
+    <string name="txt_male_rbutton" translatable="false">male</string>
+    <string name="txt_female">Femenino</string>
+    <string name="txt_female_rbutton" translatable="false">female</string>
+    <string name="txt_select_time">Seleccionar fecha y hora</string>
+
+    <string name="dialog_no_internet">No hay Internet</string>
+    <string name="no_internet">Internet no disponible</string>
+    <string name="dialog_no_inter_message">Tu no tienes una conexión de internet activa.</string>
+    <string name="dialog_enable_3g">Activar 3G</string>
+    <string name="dialog_enable_wifi">Activar WIFI</string>
+    <string name="dialog_exit">Salir</string>
+
+    <string name="txt_mobile_error">Por favor ingrese su número celular!</string>
+    <string name="txt_fname_error">Por favor ingrese su nombre!</string>
+    <string name="txt_lname_error">Por favor ingrese su apellido!</string>
+    <string name="txt_incorrect_error">Correo incorrecto!</string>
+    <string name="txt_picture_error">Por favor seleccionar su imagen de perfil!</string>
+    <string name="txt_phone_error">Por favor ingrese su número de teléfono!</string>
+    <string name="txt_pass8_error">La contraseña debe ser de almenos 8 caracteres!</string>
+
+    <string name="txt_email_error">¡Por favor ingrese su correo!</string>
+    <string name="txt_pass_error">¡Por favor ingrese su contraseña!</string>
+    <string name="txt_drivers_error">¡No hay conductores disponibles en este tipo de servicio!</string>
+    <string name="txt_load">Cargando...</string>
+    <string name="txt_confirm">Confirmando...</string>
+    <string name="txt_signin">Iniciando sesión...</string>
+    <string name="reg_load">Registrando...</string>
+    <string name="updating_pro_load">Actualizando perfil...</string>
+    <string name="req_pass_load">Solicitando contraseña...</string>
+
+
+    <string name="my_home">Inicio</string>
+    <string name="my_payment">Añadir opciones de pago</string>
+    <string name="nikola_wallet">Billetera</string>
+    <string name="my_free_ride">Viajes gratis</string>
+    <string name="ask_bot">Preguntar al robot</string>
+    <string name="ride_history">Historial de viajes</string>
+    <string name="my_promo">Promociones</string>
+    <string name="later_rides">Tus viajes programados</string>
+    <string name="my_help">Autogestion Win</string>
+    <string name="txt_logout">Cerrar sesión</string>
+    <string name="drawer_open">abrir</string>
+    <string name="drawer_close">cerrar</string>
+    <string name="logout_text">¿Está seguro de cerrar sesión?</string>
+    <string name="txt_gmail">Conectando a Gmail!</string>
+
+    <string name="update_success_text">Perfil actualizado con éxito</string>
+
+    <string-array name="language">
+        <item>Seleccionar lenguaje</item>
+        <item>Español(es)</item>
+		<item>Inglés(en)</item>
+    </string-array>
+
+
+    <string-array name="currency">
+        <item>USD</item>
+    </string-array>
+
+    <string name="facebook_api_id">1282522678496595</string>
+    <string name="sender_id">1065290004978</string>
+    <string name="google_appId">1065290004978</string>
+    <string name="map_key">AIzaSyBC_Ff-gjCriYGBVzZ6BMpJzTO1Hk7uMaY</string>
+
+    <string name="txt_slct_option">Seleccionar imagen</string>
+    <string name="txt_gellery">Galeria</string>
+    <string name="txt_cameray">Cámara</string>
+    <string name="txt_warning">(Deshabilitado para evitar el vandalismo)</string>
+    <string name="txt_img_error">No es posible seleccionar la imagen!</string>
+    <string name="txt_current_location">Configurar ubicación de origen</string>
+    <string name="txt_symbol_dot">\u25CF</string>
+    <string name="txt_symbol_square">\u25A0</string>
+    <string name="txt_dest_hint">Seleccione su destino</string>
+
+    <string name="txt_req_cab">Solicitud de taxi</string>
+    <string name="panicClic">Estas en peligro? Manten presionado el botón por 3 segundos y te ayudaremos!</string>
+
+    <string name="txt_success_forgot_password">¡Contraseña enviada con éxito al correo registrado! </string>
+    <string name="txt_approx_fare">Tarifa aproximada</string>
+    <string name="txt_cost_dis_fare">Costo / km </string>
+    <string name="txt_tot_dis">Dis. Aproximada</string>
+    <string name="txt_cost_min_fare">Costo / Min </string>
+    <string name="txt_btn_done">Hecho</string>
+    <string name="txt_fare_note">Mantenga presionado el ícono del automóvil para obtener la tarifa aproximada!</string>
+    <string name="txt_pickup_address">Dirección de origen</string>
+    <string name="txt_drop_address">Dirección de llegada</string>
+    <string name="txt_sub_rating">Enviar</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="et_promocode">Ingresar código promocional</string>
+    <string name="btn_apply_promo">Aplicar promoción</string>
+    <string name="tv_promocode_note">Si tienes un código promocional, ingrésalo y ahorra en tu viaje.</string>
+    <string name="help_line">En caso de emergencia</string>
+    <string name="txt_refferal_link">Compartir tu código de referido</string>
+
+    <string name="text_job_accepted">CONDUCTOR ACEPTÓ LA SOLICITUD</string>
+    <string name="text_driver_started">CONDUCTOR ESTA EN CAMINO</string>
+    <string name="text_driver_arrvied">CONDUCTOR HA LLEGADO AL LUGAR</string>
+    <string name="text_trip_started"> TU VIAJE HA EMPEZADO</string>
+    <string name="text_trip_completed">TU VIAJE ESTA COMPLETO</string>
+    <string name="btn_later"><u>No,es para una fecha posterior</u></string>
+
+
+    <string name="txt_gps_off">GPS esta apagado!</string>
+    <string name="txt_gps_msg">Por favor encienda el GPS</string>
+    <string name="txt_enable">Habilitar</string>
+    <string name="txt_exit">SAlir</string>
+
+    <string name="history_title">Historial de viajes</string>
+    <string name="later_title">Tus viajes programados</string>
+    <string name="select_payment_title">Seleccionar pagos</string>
+    <string name="add_payment_title">Añadir opciones de pago</string>
+    <string name="txt_select_payment"><u>Toque para cambiar la opción de pago.</u></string>
+    <string name="txt_note_choose">Esta caracteristica esta <b>Disabled</b> in <b>DEMO</b>, to avoid Vandalism of the Demo</string>
+
+    <string name="not_available">-- No disponible --</string>
+    <string name="car_type">Tipo de auto</string>
+    <string name="reciept">Recibo</string>
+    <string name="your_ride_with">tu viaje con</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="select_language">Lenguaje</string>
+    <string name="or_connect_using_a_social_account">O conectar usando una cuenta social.</string>
+    <string name="base_fare">Tarifa base</string>
+    <string name="min_fare">Tarifa mínima</string>
+    <string name="time_cost">Costo de tiempo</string>
+    <string name="distance">Distancia</string>
+    <string name="duration">Duración</string>
+    <string name="booking_price">Precio de reserva</string>
+    <string name="service_tax">Cargos de servicio</string>
+    <string name="ride_details">Detalles del viaje</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="contact">Contacto</string>
+    <string name="cancel_ride">Cancelar viaje</string>
+    <string name="completed_ride">Tu viaje se ha completado!</string>
+    <string name="complete_ride">Tu viaje se ha completado!</string>
+    <string name="pay_now">Pagar ahora</string>
+    <string name="pay">Necesitas pagar:</string>
+
+    <string name="payment_note">Toque el ícono naranja debajo \ para agregar nuevas opciones de pago.</string>
+    <string name="payment_note1">Para fines de demostración, use los siguientes datos de la tarjeta</string>
+    <string name="payment_note2">Card Number: 4242 4242 4242 4242\n Expiration: 12/20</string>
+    <string name="no_history">--- No hay viajes en su cuenta ---</string>
+    <string name="no_places">--- No hay lugares guardados ---</string>
+    <string name="airport_title">Reserva de viaje al aeropuerto</string>
+    <string name="airport_note">Use esta pantalla para reservar un viaje al aeropuerto.</string>
+    <string name="airport_note2">¿Ir al aeropuerto o salir?</string>
+    <string name="going_airport">Yendo al aeropuerto</string>
+    <string name="coming_airport">Saliendo?</string>
+    <string name="select_airport">Seleccionar el Aeropuerto</string>
+    <string name="set_pickup">Configurar ubicación de origen.</string>
+    <string name="set_vehicle">Seleccionar tipo de vehiculo</string>
+    <string name="fare_detials">Detalle de tarifa</string>
+    <string name="price_package">Precio de paquete</string>
+    <string name="txt_toll">Total de peajes en su ruta</string>
+    <string name="btn_book">Reservar ahora</string>
+    <string name="title_bolt">Hola robot!</string>
+    <string name="ent_msg">Ingrese mensaje</string>
+    <string name="getting_location">Obteniendo su ubicación...</string>
+    <string name="issue_title">Seleccionar un inconveniente</string>
+    <string name="msgr">Mensajero</string>
+    <string name="typ_msg">Escribe tu mensaje</string>
+    <string name="pic_worn">Puede elegir la imagen de la Galería -o-- Use la cámara para crear una.</string>
+    <string name="txt_note">Nota: </string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_enter_card">Por favor ingresar número de tarjeta</string>
+    <string name="txt_error_month">Por favor ingresar mes de expiración!</string>
+    <string name="txt_error_year">Por favor ingresar año de expiración!</string>
+    <string name="txt_error_ccv">Por favor ingresar número CCV!</string>
+
+    <string name="mm">MM</string>
+    <string name="yy">YYYY</string>
+    <string name="cvv">CVV</string>
+    <string name="enter_address">Ingresar dirección de origen</string>
+    <string name="txt_fare_break">Tarifas</string>
+    <string name="txt_fare_break_note">Su tarifa será el precio estimado antes del viaje o según las tarifas a continuación. </string>
+    <string name="txt_base_price">Tarifa base</string>
+    <string name="txt_min_fare">Tarifa mínima</string>
+    <string name="txt_per_min">+ Por minuto</string>
+    <string name="txt_per_km">+ Por km</string>
+    <string name="txt_book_fee">Tarifa de reserva</string>
+    <string name="txt_service_fee">Impuesto de servicio </string>
+    <string name="txt_capacity">Capacidad</string>
+    <string name="txt_fare_popup">El precio del servicio se basará en las tarifas proporcionadas. Toque tarifa para más detalles.</string>
+    <string name="txt_payment_type">Tipo de pago:</string>
+    <string name="txt_no_tolls">No. Peajes:</string>
+
+    <string name="txt_ride_detail">Detalles del viaje</string>
+    <string name="txt_ride_with">tu viaje con</string>
+    <string name="txt_time">Tiempo</string>
+    <string name="txt_dis">Distancia</string>
+    <string name="title_rentale">Alquileres</string>
+    <string name="txt_hourly_note">Utilice esta pantalla para reservar alquileres, es decir. Paquete basado en horas</string>
+    <string name="txt_enter_hur">Ingrese No. de horas</string>
+    <string name="txt_pickup">Ubicación de origen</string>//pickup location
+    <string name="txt_no_later">--- No hay viajes programados disponibles ---</string>
+    <string name="txt_social_login">O conectar usando su cuenta social.</string>
+    <string name="txt_your_balance">Tu resumen</string>
+    <string name="txt_ent_amount">Ingresar monto</string>
+    <string name="txt_add_amount">Añadir Monto</string>
+    <string name="txt_sign_up">Iniciar sesión</string>
+    <string name="txt_otp_note">Te enviarán tu OTP al siguiente número de teléfono móvil!</string>
+    <string name="txt_otp_demo">Para fines de demostración, hemos completado previamente el código de verificación, haga clic en Continuar!</string>
+    <string name="txt_ent_otp">Ingresa tu código de verificación OTP</string>
+    <string name="txt_no_otp">¿No has recibido tu código Otp? Reenviar</string>
+    <string name="txt_resend">REENVIAR</string>
+    <string name="txt_proceed">Proceder</string>
+    <string name="txt_requesting">Solicitando...</string>
+    <string name="txt_schedule_ttl">Agendar un nuevo viaje</string>
+    <string name="txt_schedule">Programar</string>
+    <string name="txt_done">Hecho</string>
+    <string name="txt_select_payment_note">Toque cualquier botón a continuación para cambiar la opción</string>
+    <string name="txt_select_payment_note2">Utilice esta pantalla para volver al pago CC.</string>
+    <string name="txt_next">Siguiente</string>
+    <string name="txt_confirm_phone">Confirmar número de teléfono</string>
+    <string name="txt_choose_account">Escoger una cuenta</string>
+    <string name="txt_fb">Facebook</string>
+    <string name="txt_gm">Google</string>
+    <string name="txt_go">¡Vamos!</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="txt_contact">Contacto</string>
+    <string name="txt_cancel_ride">Cancelar viaje</string>
+    <string name="txt_select_gateway">Seleccionar pasarela de pago!</string>
+    <string name="txt_cancel_schedule">Programa cancelado con éxito!</string>
+
+    <string name="txt_pay_cash">Pagar con efectivo</string>
+    <string name="txt_pay_paypal">Pagar con Paypal</string>
+    <string name="txt_pay_wallet">Pagar con Billetera</string>
+    <string name="txt_pay_card">Pagar con Tarjeta</string>
+
+    <string name="txt_error_select_details">Por favor seleccionar detalles válidos!</string>
+    <string name="txt_error_enter_address">Por favor ingresar la dirección!</string>
+    <string name="txt_canceling_req">Cancelando solicitud...</string>
+    <string name="txt_trip_schedule_success">¡Viaje agendado correctamente!</string>
+    <string name="txt_no_provider_error">No se encontraron conductores favor intente mas tarde!</string>
+    <string name="txt_error">¡Ocurrió un error!</string>
+    <string name="txt_error_date_time">¡Por favor seleccionar fecha y hora!</string>
+    <string name="txt_destination_error">¡Favor ingrese su dirección de destino!</string>
+    <string name="txt_drop_pick_error">favor ingrese dirección de origen y destino!</string>
+    <string name="txt_per">+ Por</string>
+    <string name="txt_pickup_error">Favor ingrese su dirección de origen!</string>
+    <string name="txt_hourly_error">El paquete por hora ingresado no existe.</string>
+    <string name="txt_otp_error">Favor ingrese codigo de confirmación!</string>
+    <string name="txt_otp_wrong">Código ingresado invalido! Favor ingrese un código valido!</string>
+    <string name="txt_ride_cmplt">!Tu viaje está completo!</string>
+    <string name="min">min</string>
+    <string name="txt_trip_cancel_fee">Tu tarifa de cancelación de viaje:</string>
+    <string name="txt_payment_success">Pago realizado con exito!</string>
+    <string name="txt_reqst">Solicitud</string>
+    <string name="btn_no_driver">No hay conductores disponibles ahora</string>
+    <string name="txt_selected_type">Pago seleccionado es</string>
+    <string name="txt_cash">EFECTIVO</string>
+    <string name="txt_paypal">PAYPAL</string>
+    <string name="txt_wallet">BILLETERA</string>
+    <string name="txt_card">TARJETA</string>
+    <string name="txt_finish">FINALIZAR</string>
+    <string name="txt_card_success">Tarjeta añadida con exito</string>
+    <string name="txt_braintree1">Solo se le cobrará después de su viaje.!</string>
+    <string name="txt_braintree2">Su información de pago se almacenará de forma segura.</string>
+    <string name="btn_add_card">Añadir tarjeta</string>
+    <string name="cancel_txt">¿Estás seguro? Desea cancelar este viaje</string>
+    <string name="txt_no">NO</string>
+    <string name="txt_yes">SI</string>
+    <string name="txt_contact_driver">Contactar al conductor</string>
+    <string name="txt_call">Llamar</string>
+    <string name="txt_msg">Mensaje</string>
+    <string name="txt_car_no">No. de Auto:</string>
+    <string name="txt_mobile">Celular:</string>
+    <string name="txt_no_cancel_reason">Razones no encontradas!</string>
+    <string name="txt_cancel_driver">Viaje cancelado por conductor!</string>
+    <string name="network_error">Noo hay conexión. Favor revise su internet</string>
+    <string name="memory_error">No hay memoria, cierre las otras aplicaciones en segundo plano e intente nuevamente!</string>
+    <string name="txt_load_web">¿Estás seguro? ¿Quieres cargar esta página?</string>
+    <string name="txt_continue">Continuar</string>
+    <string name="empty_error_msg">Por favor, introduzca el mensaje antes de enviar</string>
+    <string name="error_empty_amount">Favor ingrese cantidad</string>
+    <string name="error_no_wallet_gateway">¡No se encontró Pasarela de pago! Configure Pasarela de pago desde el panel de control.</string>
+    <string name="error_payment_key">Agregue la clave de pago en el tablero!</string>
+    <string name="error_card">Favor ingrese detalles de la tarjeta!</string>
+    <string name="add_money_success">Monto añadido a tu billetera!</string>
+    <string name="fail_add_money">Falla al añadir monto!</string>
+    <string name="txt_warn">Advertencia!</string>
+    <string name="txt_cancel_trans">Estas seguro? Quieres cancelar la transacción?</string>
+    <string name="txt_error_promo">Favor ingrese código promocional!</string>
+    <string name="txt_promo_success">Código promocional aplicado con éxito "\u2713"</string>
+    <string name="txt_apply_promo">Aplicar código promocional</string>
+    <string name="referral_title">Refiere y gana</string>
+    <string name="txt_referral_earn">Tu ganancia por referir</string>
+    <string name="txt_referral_code1">Ingrese su Cédula</string>
+    <string name="txt_referral_code">Código de referido</string>
+    <string name="saved_places">Lugares guardados</string>
+    <string name="txt_cancel_fav">Lugar guardado eliminado</string>
+    <string name="txt_favourites">Favoritos</string>
+    <string name="logout_txt">Cerrando sesión....</string>
+    <string name="update_txt">Favor actualizar para obtener la última versión.</string>
+    <string name="update_txt_btn">Actualizar</string>
+    <string name="update_txt_available">Actualización disponible</string>
+    <string name="add_stop">Añadir parada</string>
+    <string name="txt_more">Mas</string>
+    <string name="txt_update_number">Favor actualice su número celular</string>
+
+    <string name="updateAvailable">La actualización ha sido descargada.</string>
+    <string name="restartCaps">REINICIAR</string>
+    <string name="invalid">Datos inválidos</string>
+    <string name="enterPlaceAddress">Ingrese dirección del lugar</string>
+    <string name="enterPlaceNam">Ingrese nombre del lugar</string>
+    <string name="addesSuccess">Añadido con éxito</string>
+
+
+    <string name="twoHundred">200</string>
+    <string name="fiveHundred">500</string>
+    <string name="thousand">1000</string>
+    <string name="stripe">raya</string>
+    <string name="removeCardTitle">Estás seguro ¿Quieres eliminar esta tarjeta?</string>
+    <string name="cardAddSuccessful">Tarjeta añadida con éxito!</string>
+    <string name="cardRemovedSuccess">Tarjeta eliminada con éxito</string>
+    <string name="please_try_again">Por favor intente mas tarde</string>
+    <string name="something_went_wrong">Algo salió mal</string>
+    <string name="email_cant_be_empty">Favor ingrese un correo válido</string>
+    <string name="minimum_six_characters">La clave debe ser mínimo de 6 dígitos</string>
+
+    <string name="need_storage_permission_title">Necesita permisos para guardar</string>
+    <string name="need_storage_permission_desc">Habilite el permiso de almacenamiento para cargar una imagen.</string>
+    <string name="grant">Conceder</string>
+    <string name="cancel">Cancelar</string>
+    <string name="stripe_pk">pk_test_uDYrTXzzAuGRwDYtu7dkhaF3</string>
+    <string name="add_card">Añadir tarjeta</string>
+    <string name="yes">Si</string>
+    <string name="invalid_card">Favor ingresar una tarjeta válida</string>
+    <string name="no">No</string>
+    <string name="payments_text">Pagos</string>
+    <string name="test_card_num">Tarjeta de prueba</string>
+    <string name="sure_to_text">Estas seguro de</string>
+    <string name="delete_confirmation">Eliminar la tarjeta</string>
+    <string name="nothing_found">No encontrado</string>
+    <string name="saved_cards">Tarjetas guardadas</string>
+    <string name="add_card_plus">Añadir Tarjeta +</string>
+    <string name="current_password">Clave actual</string>
+    <string name="new_password">Nueva Clave</string>
+    <string name="confirm_password">Confirmar clave</string>
+    <string name="change_password_text">Cambiar clave</string>
+    <string name="save_contact">Guardar contacto</string>
+    <string name="number_panic_contact">Número de contacto</string>
+    <string name="password_cant_be_empty">Clave no puede estar vacía</string>
+    <string name="passwords_dont_match">Las claves ingresadas no coinciden</string>
+    <string name="login_again_with_new_password">Vuelva a iniciar sesión con una nueva contraseña</string>
+    <string name="forgot_password_text">Olvido la contraseña</string>
+    <string name="forgot_password_desc">Ingrese su correo</string>
+    <string name="email_address">dirección de correo</string>
+    <string name="send_mail">Correo enviado</string>
+    <string name="enter_valid_email">Ingrese un correo válido</string>
+    <string name="cardHint">XXXX-XXXX-XXXX-</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="payment_currency">Pagos</string>
+    <string name="packageNotFound">No se pudo obtener el nombre del paquete:</string>
+    <string name="confirmation">Confirmación</string>
+    <string name="delete_message">Esta seguro de cancelar la solicitud.</string>
+    <string name="hourly_booking">Reserva por hora</string>
+    <string name="cant_sent_empty_msg">No se puede enviar le mensaje vacio</string>
+    <string name="writeSomething">Escriba algo</string>
+    <string name="send">Enviar</string>
+    <string name="enterFirstName">Favor ingrese su nombre</string>
+    <string name="enterUserName">Favor ingrese su nombre de usuario</string>
+    <string name="enterLastName">Favor ingrese su apellido</string>
+    <string name="enterLastName1">Favor ingrese su código de Verificacion</string>
+    <string name="enterReferalCode">Favor ingrese su refiriente</string>
+    <string name="noProvidersFound">No se encontraron conductores</string>
+    <string name="copiedCode">Código ha sido copiado al portapapeles</string>
+    <string name="enter_no_of_hours">Ingrese número de horas</string>
+    <string name="billing_details">Detalles de facturación</string>
+    <string name="ride_fare">Tarifa de viaje</string>
+    <string name="service_fee">Tarifa de servicio</string>
+    <string name="cancel_fee">Tarifa de cancelación</string>
+    <string name="discount">Descuento</string>
+    <string name="chat">Chat</string>
+    <string name="track">Rastrear</string>
+    <string name="may_be_your_is_lost">Puede ser que su internet esté caído. Por favor verifique su conexión.</string>
+    <string name="password">Contraseña</string>
+    <string name="please_select_a_package">Por favor seleccionar un paquete.</string>
+    <string name="wallet">Billetera</string>
+    <string name="are_you_sure">Estas seguro de </string>
+    <string name="are_you_sure_to_cancel">¿Estás seguro de que deseas cancelar la solicitud de canje?</string>
+    <string name="you_don_t_have_any_transactions">No tienes ninguna transacción</string>
+    <string name="please_enter_amount">Por favor ingrese la cantidad</string>
+    <string name="please_enter_amount_atleast">Ingrese la cantidad al menos 1.</string>
+    <string name="you_don_t_have_any_redeems">No tienes ningún canje</string>
+    <string name="recent_transactions">Transacciones recientes</string>
+
+    <string name="bannergatta_road_bangalore">bannergatta road bangalore</string>
+    <string name="ride_details_d">Detalles del viaje</string>
+    <string name="oct_2019">Oct 2019</string>
+    <string name="_00000">#00000</string>
+    <string name="provider_name">Nombre del conductor</string>
+    <string name="service_name">Nombre del servicio</string>
+    <string name="model_name">Nombre del modelo</string>
+    <string name="bannergatta_road">bannergatta road bangalore</string>
+    <string name="invoice">Factura</string>
+    <string name="include_10_00_taxes">Include $0.00 Taxes</string>
+    <string name="card">Tarjeta</string>
+
+    <string name="cannotScheduleRide">Lo sentimos, no puedes programar un viaje a esta ubicación. Por favor seleccione otra</string>
+    <string name="mobileNumberError">Por favor, introduzca un número de celular válidor</string>
+    <string name="noInternetMessage">No tiene una conexión a internet establecida. Por favor revise su internet e intente nuevamente</string>
+    <string name="fav_provider">Conductores favoritos</string>
+    <string name="remove_fromfavourite">Estas seguro de eliminar este conductor de favoritos?</string>
+    <string name="confrim_unfavourite">Confirmas quitarlo?</string>
+    <string name="paymentConfirmation">Confirmación de pago</string>
+    <string name="no_favorite_provider">No hay conductores favoritos</string>
+    <string name="not_avail">--No disponible--</string>
+    <string name="update_mobile_number">Actualizar número celular</string>
+    <string name="update">Actualizar</string>
+    <string name="error_in_conneting_socket">Se produjo un error al crear la conexión.</string>
+    <string name="rental_bookings">Reservas de alquiler</string>
+    <string name="later">Luego</string>
+    <string name="welcome_back">Bienvenido a WIN</string>
+    <string name="login_if_you_are_an_existing_user_of_nikola">Inicia sesión para empezar</string>
+    <string name="email">Ingresa tu Usuario</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login">Inicia sesión</string>
+    <string name="login1">REGISTRATE</string>
+    <string name="login2">Registrate o Reactivate</string>
+    <string name="or_signin_using_any_of_your_social_account"></string>
+    <string name="do_not_have_an_account_signup">¿No tienes una cuenta? REGÍSTRATE</string>
+    <string name="messages">Anuncios Informativos</string>
+    <string name="favourite_provider">Conductores Favoritos</string>
+    <string name="checkout_and_earn_entering_my_referal_code">Hola, mira mi aplicación y gana ingresando mi código de referencia: </string>
+    <string name="facebook_messager">Por favor instale Facebook Messenger</string>
+    <string name="while_registering"> mientras se registra</string>
+    <string name="schedule_rides">Viajes programados</string>
+    <string name="apply">APLICAR</string>
+
+    <string name="sign_up2" translatable="false">Validar Código</string>
+    <string name="sign_up1">Validar tu Celular</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="your_balance">Tu resúmen</string>
+    <string name="total">Total</string>
+    <string name="add_money">Añadir dinero</string>
+    <string name="redeems">Recompensas</string>
+    <string name="view_more">Ver mas</string>
+    <string name="transactions">Transacciones</string>
+    <string name="lets_get_started">Empecemos!</string>
+    <string name="create_an_account_in_nikola">Crear una cuente en WIN</string>
+    <string name="error_connecting_socket">Error conectando al puerto</string>
+    <string name="denied_the_location_permission_please_enable_it_to_maps">Como denegaste el permiso de ubicación. Por favor habilítelo para acceder a los mapas..</string>
+    <string name="an_invalid_payment_or_payapalconfiguration_was_submitted">Se ha enviado un pago no válido o una configuración de PayPal. Por favor vea los documentos.</string>
+    <string name="user_is_cancelled">El usuario canceló.</string>
+    <string name="no_internet_connection">No hay conexión de internet</string>
+    <string name="close">Cerrar</string>
+    <string name="verify_your_number">Verifica tu número</string>
+    <string name="otp">Otp</string>
+    <string name="no_content_available">No hay contenido disponible</string>
+    <string name="pay_with">Pagar con</string>
+    <string name="available">Disponible</string>
+    <string name="redeemed">Canjeado</string>
+    <string name="do_you_have_an_account_signup">¿No tienes una cuenta? REGÍSTRATE</string>
+    <string name="lastname">Apellido</string>
+    <string name="description">descripción</string>
+    <string name="clear">Limpiar</string>
+    <string name="pre_book_your_ride_to_airport">reserve su viaje al aeropuerto!</string>
+    <string name="address">Dirección</string>
+    <string name="place_address">Dirección</string>
+    <string name="enter_a_title">Ingrese un título</string>
+    <string name="place_name">Nombre del lugar</string>
+    <string name="others">Otros</string>
+    <string name="others_rbutton" translatable="false">others</string>
+    <string name="work">Trabajo</string>
+    <string name="not_here_to_login_signup">¡No está aquí para iniciar sesión! REGÍSTRATE</string>
+    <string name="start_a_trip">¡Comienza el viaje!</string>
+    <string name="are_sure_to_add_provider_to_favorites">¿Estás seguro de añadir este conductor a favoritos?</string>
+    <string name="confirm_to_favourite">¿Confirmar como favorito?</string>
+    <string name="provider_is_already_added">Conductor ya añadido</string>
+    <string name="make_favourite">Hazlo favorito</string>
+    <string name="make_unfavourite">Quítalo de favoritos</string>
+    <string name="tap_to_choose_payment_mode">Toque para elegir un modo de pago</string>
+    <string name="empty_mobile_number">El número de móvil no se puede estar vacío</string>
+    <string name="mobile_number_more_than">El número de móvil no se puede ser de mas de 13 dígitos</string>
+    <string name="mobile_number_less_than">El número de móvil no se puede ser de menos de 6 dígitos</string>
+    <string name="you_need_to_grant_permission_to_call">Debe otorgar permiso para iniciar la llamada.</string>
+    <string name="updatePhoneNumber">Actualizar número de teléfono</string>
+    <string name="get_otp">Obtener Otp</string>
+    <string name="click_here_to_update_mobile_number">Haga clic aquí para actualizar el número de móvil.</string>
+    <string name="requestLater">Viajar luego</string>
+    <string name="loading">Cargando....</string>
+    <string name="removeFav">Eliminar favorito</string>
+    <string name="permissions">Permisos</string>
+    <string name="youNeedToGrantPermission">Debe otorgar un conjunto de permisos para que la aplicación funcione correctamente.</string>
+    <string name="dont">Don\'t</string>
+    <string name="youNeedToGrantThePermissionsMannualy">Debe otorgar los permisos manualmente. Por favor otórgalos en la configuración.</string>
+    <string name="youHaveNotGrantedAllThePermissions">No ha otorgado todos los permisos. Por favor concédeles.</string>
+    <string name="please_accept_our_terms_and_conditions_to_proceed">Acepte los términos y condiciones y la política de privacidad. </string>
+    <string name="next">Siguiente</string>
+    <string name="youNeedToAddMoney">Tu necesitas añadir</string>
+    <string name="toYourWallet">a tu billetera para hacer la reserva.</string>
+    <string name="no_provider_are_avaiable">No hay conductores disponibles</string>
+    <string name="errorCode12">No está registrado aún.</string>
+    <string name="errorCode10">Usuario o contraseña incorrectas!.</string>
+    <string name="somethingWrong">Algo salió mal, inténtalo nuevamente.</string>
+    <string name="mobile_number">Número de celular</string>
+    <string name="usernameExist">El nombre de usuario ya existe.</string>
+    <string name="emailExist">El correo ya existe.</string>
+    <string name="mobileExist">El número celular ya existe.</string>
+    <string name="enterRefferralCode">Ingrese el código de referido.</string>
+    <string name="payment_message">Paga al conductor, lo marcado en el taxímetro.</string>
+    <string name="taximetro">Taxímetro</string>
+    <string name="cancelBy">Cancelado por:</string>
+    <string name="viaje">Viaje: </string>
+
+    <string name="trip_time">Tiempo de Viaje: </string>
+    <string name="my_earnings">Mis Ganancias</string>
+    <string name="todays_ov_earnings">Red Social</string>
+
+    <string name="txt_pasarela_pago">¿Deseas pagar con tarjeta?</string>
+    <string name="pregunta_pagar_con_tarjeta">¿Pagar con tarjeta?</string>
+    <string name="provider_arrived">El conductor ha llegado!</string>
+    <string name="provider_arrived_msg">El conductor ha llegado al lugar de inicio del viaje, tienes el tiempo que marca el contador para abordar el vehículo, caso contrario se cobrarán valores extra por el tiempo de espera.</string>
+
+
+    <string name="ssl_cert_error_date_invalid" translatable="false">Error de certificado</string>
+    <string name="ssl_cert_error_expired" translatable="false">El certificado del sitio ha expirado</string>
+    <string name="ssl_cert_error_idmismatch" translatable="false">Certificado del sitio inválido </string>
+    <string name="ssl_cert_error_invalid" translatable="false">Certificado del sitio inválido </string>
+    <string name="ssl_cert_error_not_yet_valid" translatable="false">El certificado del sitio ha expirado</string>
+    <string name="ssl_cert_error_untrusted" translatable="false">El sitio no es de confianza</string>
+    <string name="ssl_cert_error_cert_invalid" translatable="false">Certificado del sitio inválido</string>
+    <string name="ssl_cert_error_title" translatable="false">Certificado del sitio inválido</string>
+
+
+</resources>
+

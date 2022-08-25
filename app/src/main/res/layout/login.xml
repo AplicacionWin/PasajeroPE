@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/login_background_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="348dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/logo_header" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/welcome_back"
+            android:textColor="@color/white"
+            android:textSize="27sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_if_you_are_an_existing_user_of_nikola"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:visibility="invisible" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/drawable_edittext_background2"
+            android:drawableLeft="@drawable/account_outline_white"
+            android:drawablePadding="20dp"
+            android:hint="@string/email"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/bt_white" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:id="@+id/inputLayoutPassword"
+            app:passwordToggleTint="@color/bt_white"
+            app:hintAnimationEnabled="false">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/drawable_edittext_background2"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp_white"
+                android:drawablePadding="20dp"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/bt_white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/drawable_edittext_background3"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/Nuevo"
+                android:layout_width="198dp"
+                android:layout_height="48dp"
+                android:layout_gravity="left"
+
+                android:background="@drawable/drawable_edittext_background2"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:text="@string/login2"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+    </LinearLayout>
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/do_not_have_an_account_signup"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorLink="@color/quantum_amber900"
+            android:textCursorDrawable="@color/white"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/socialLogin"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/or_signin_using_any_of_your_social_account"
+            android:textColor="@color/wallet_blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_need_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:text="@string/help"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</ScrollView>

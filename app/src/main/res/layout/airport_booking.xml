@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_airport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+                android:text="@string/airport_title"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/airport_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:padding="5dp"
+                app:srcCompat="@drawable/back" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/pre_book_your_ride_to_airport"
+                    android:textColor="@color/deep_grey"
+                    android:textSize="18sp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:lottie_autoPlay="true"
+                    android:layout_marginTop="20dp"
+                    app:lottie_loop="true"
+                    app:lottie_fileName="airport_load.json"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                        android:id="@+id/from_airport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:singleLine="true"
+                        android:paddingRight="15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/drawable_edittext_background"
+                        android:text="@string/coming_airport"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:padding="20dp"
+                        app:theme="@style/Color1SwitchStyle" />
+
+                    <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                        android:id="@+id/to_airport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:singleLine="true"
+                        android:paddingRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/going_airport"
+                        android:background="@drawable/drawable_edittext_background"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/deep_grey"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"
+                    android:text="@string/select_airport" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <Spinner
+                        android:id="@+id/sp_select_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/drawable_edittext_background"></Spinner>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_airport_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/drawable_edittext_background"
+                        android:hint="@string/set_pickup"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:imeOptions="actionDone"
+                        android:drawableRight="@drawable/close"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/deep_grey"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"
+                    android:text="@string/set_vehicle" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_edittext_background"
+                    android:id="@+id/sp_type_airport"/>
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:id="@+id/customBoldRegularTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/fare_detials"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/deep_grey"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/hourly_fare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/price_package"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                                android:id="@+id/trip_fair"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="--"
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/deep_grey"
+                                android:textSize="14sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+
+                            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                                android:id="@+id/textView2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/txt_toll"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+
+                            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                                android:id="@+id/trip_tolls"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd"
+                                android:text="--"
+                                android:textColor="@color/deep_grey"
+                                android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_bnts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/airport_book_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_button_welcome"
+                    android:clickable="true"
+                    android:text="@string/btn_book"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                    android:id="@+id/airport_book_btn_later"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:gravity="center"
+                    android:text="@string/btn_later"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

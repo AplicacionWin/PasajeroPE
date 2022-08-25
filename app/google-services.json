@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046996568676",
+    "project_id": "winrideshareec",
+    "storage_bucket": "winrideshareec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046996568676:android:bb669b6cfc0117ed48ed71",
+        "android_client_info": {
+          "package_name": "com.winridesharec.passenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046996568676-8t0ct9v8jc5i3non2updpgmr1b90kon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1xkp-J6xWumFltlaL8OqtRDsbiroAwP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046996568676-8t0ct9v8jc5i3non2updpgmr1b90kon1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

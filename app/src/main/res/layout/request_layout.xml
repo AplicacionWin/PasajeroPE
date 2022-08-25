@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutRequest"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/white"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lst_vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"/>
+        <ProgressBar
+            android:id="@+id/load_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/instruction_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lst_vehicle"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/alert_circle_outline" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/txt_fare_note"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_"
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dp"
+            android:layout_below="@+id/instruction_lay"
+            android:layout_margin="4dp"
+            android:background="@color/dark_grey" />
+
+        <RelativeLayout
+            android:id="@+id/lay_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_"
+            android:layout_marginLeft="2dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:id="@+id/tv_cashtype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/txt_select_payment"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/account_outline" />
+
+
+                <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:id="@+id/tv_no_seats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/promo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_payment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ticket_percent" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/tv_promocode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/txt_apply_promo"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_payment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/calendar_clock" />
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/schedule_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_payment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_weight="0">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_weight="2"/>
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/lay_payment"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/btn_request_cab"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_welcome"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/txt_req_cab"
+                android:paddingBottom="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <!--<com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/btn_request_later"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:layout_centerInParent="true"
+                android:layout_margin="6dp"
+                android:layout_marginBottom="5dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_button_welcome"
+                android:shadowDy="0"
+                android:text="@string/requestLater"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
